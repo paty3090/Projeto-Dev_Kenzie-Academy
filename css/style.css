@@ -1,0 +1,132 @@
+/*Cascading Style Sheets(Folha de Estilos em Cascata, em português)*/
+
+/*
+- seletor   
+    - Nome da tag
+    - Class
+    - id 
+    - atributo
+
+*/
+
+/*- Propriedade **  */
+
+/*- Valor da propriedade ** */
+
+/*- Declaração*** */
+
+/*Nome da tag*/
+
+body {
+    background-color: #2b0252;
+    color: #fff;
+}
+
+header {
+    background-image: url("../img/front.jpg");
+    margin-top: 10px;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 300px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+figure {
+    text-align: left;
+}
+
+p {
+    line-height: 1, 5;
+    font-size: 20px;
+}
+
+/*Class*/
+
+.conteudoInical {}
+
+.conteudoInical.color-blue {
+    background-color: blue;
+}
+
+/*id*/
+
+#titulo-strong {
+    font-size: 70px;
+}
+
+/*Seletor por atributo*/
+
+img[src] {
+    width: 50px;
+}
+
+a[href="https://kenzie.com.br/"] {
+    background-color: rgb(12, 10, 10);
+}
+
+/*Unidades de medida*/
+
+/*
+absolutas
+px -> valor fixo
+
+-relativas- 
+%
+rem 
+*/
+
+/* FONTES TEXTO */
+
+section {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #fff;
+}
+
+/* Dimensionamento - propriedades para elementos */
+
+section {
+    background-color: #6e1563;
+    border: solid 5px rgb(185, 42, 142);
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    padding: 30px 40px 30px 40px;
+    margin: 20px auto;
+}
+
+/*
+POSICIONAMENTO
+display: inline; -> você não consegue aplicar largura e altura
+display: block;  -> você consegue aplicar largura e altura 
+display: inline-block;
+*/
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+}
+
+span {
+    display: inline;
+}
+
+h2,
+p,
+div,
+article {
+    display: inline-block;
+    text-align: center;
+}
